@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+}
+
+table#game {
+	margin: 10px auto;
+}
+
+table#game td {
+	cursor: default;
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	font-size: 60px;
+	line-height: 1;
+}
+table#game td[data-position] {
+	cursor: pointer;
+}
+table#game td:nth-child(1) {
+	border-left: none;
+}
+table#game tr:nth-child(1) td {
+	border-top: none;
+}
+table#game td:nth-child(3) {
+	border-right: none;
+}
+table#game tr:nth-child(3) td {
+	border-bottom: none;
+}
